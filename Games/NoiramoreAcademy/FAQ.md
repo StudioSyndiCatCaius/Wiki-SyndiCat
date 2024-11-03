@@ -7,7 +7,7 @@ ___
 A. The most common reason this happens is due to an incompatible graphics card with the game's default renderer (**Direct X 12**).
 
 To Fix (Windows):
-* Open Windows Explorer to "%LOCALAPPDATA%\NoiramoreAcademy\Saved\Config\Windows\GameUserSettings.ini". If this file or path does not exist, create them. (You can create .ini files easily with [Notepad++](https://notepad-plus-plus.org/).)
+* Open Windows Explorer to ```%LOCALAPPDATA%\NoiramoreAcademy\Saved\Config\Windows\GameUserSettings.ini```. If this file or path does not exist, create them. (You can create .ini files easily with [Notepad++](https://notepad-plus-plus.org/).)
 * Find or add the field ``DefaultGraphicsRHI`` under the category ``[/Script/WindowsTargetPlatform.WindowsTargetSettings]``.
 * set the field to your desired graphics renderer. If DX12 is giving you issues, try DX11.
     * *DirectX 11* = ``DefaultGraphicsRHI_DX11``
