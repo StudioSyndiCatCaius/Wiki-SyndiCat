@@ -13,7 +13,7 @@ To Fix (Windows):
     * *DirectX 11* = ``DefaultGraphicsRHI_DX11``
     * *DirectX 12* = ``DefaultGraphicsRHI_DX12``
     * *Vulkan* = ``DefaultGraphicsRHI_Vulkan``
-* It should not look something like this:
+* It should look something like this:
 ````ini
 [/Script/WindowsTargetPlatform.WindowsTargetSettings]
 DefaultGraphicsRHI=DefaultGraphicsRHI_DX11 
